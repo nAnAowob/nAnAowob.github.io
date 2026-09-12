@@ -11,7 +11,7 @@ name:
   pronouns: ''
 
 status:
-  icon: "🤖"
+  icon: "🍊"
 
 role: Electrical & Computer Engineering Undergraduate
 
@@ -59,6 +59,10 @@ education:
       - CSC1006 — A
       - ENG1002 — A-
       - AP Calculus BC — 5/5
+
+  - degree: High School
+    institution: Kamnoetvidya Science Academy (KVIS)
+    summary: STEM research-based high school.
 
 experience:
   - role: Bio-Inspired Robotics Research Intern

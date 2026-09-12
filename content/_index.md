@@ -1,11 +1,10 @@
 ---
-title: 'Chompunick CHIENG'
+title: ""
 summary: 'Personal academic portfolio of Chompunick "AnnAnn" Chieng, an Electrical and Computer Engineering undergraduate at CUHK-Shenzhen exploring robotics, embedded systems, hardware, and software.'
 date: 2026-09-12
 type: landing
 
 sections:
-
   # ============================================================
   # HERO / ABOUT ME
   # ============================================================
@@ -45,7 +44,6 @@ sections:
         size: medium
         shape: circle
 
-
   # ============================================================
   # RESEARCH INTERESTS
   # ============================================================
@@ -53,8 +51,8 @@ sections:
   - block: markdown
     id: research
     content:
-      title: '🤖 Research Interests'
-      subtitle: 'Exploring robotics from both hardware and software perspectives'
+      title: "🤖 Research Interests"
+      subtitle: "Exploring robotics from both hardware and software perspectives"
       text: |
         I'm currently exploring several areas of **robotics and intelligent
         systems** as I build my undergraduate technical foundation.
@@ -87,8 +85,7 @@ sections:
         pursue more deeply.
 
     design:
-      columns: '1'
-
+      columns: "1"
 
   # ============================================================
   # RESEARCH EXPERIENCE
@@ -97,8 +94,8 @@ sections:
   - block: markdown
     id: research-experience
     content:
-      title: '🔬 Research Experience'
-      subtitle: 'My first step into robotics research'
+      title: "🔬 Research Experience"
+      subtitle: "My first step into robotics research"
       text: |
         ## Bio-Inspired Robotics Research Internship
 
@@ -120,8 +117,7 @@ sections:
         [**View Mayfly-Inspired Robotics →**](/projects/mayfly-inspired-robotics/)
 
     design:
-      columns: '1'
-
+      columns: "1"
 
   # ============================================================
   # PROJECTS
@@ -130,8 +126,8 @@ sections:
   - block: collection
     id: projects
     content:
-      title: '🛠️ Selected Projects'
-      subtitle: 'Research, programming, and things I am learning'
+      title: "🛠️ Selected Projects"
+      subtitle: "Research, programming, and things I am learning"
       text: |
         A selection of projects and coursework documenting my progress in
         robotics, engineering, and programming.
@@ -148,7 +144,6 @@ sections:
       show_read_time: false
       show_read_more: true
 
-
   # ============================================================
   # SKILLS
   # ============================================================
@@ -159,7 +154,6 @@ sections:
       title: Technical Skills & Current Learning
       username: me
 
-
   # ============================================================
   # CURRENTLY LEARNING
   # ============================================================
@@ -167,8 +161,8 @@ sections:
   - block: markdown
     id: learning
     content:
-      title: '🌱 What I’m Learning Now'
-      subtitle: 'Building the foundations I need for robotics'
+      title: "🌱 What I’m Learning Now"
+      subtitle: "Building the foundations I need for robotics"
       text: |
         I'm currently strengthening the fundamentals that I will need for
         future robotics research and engineering work.
@@ -187,8 +181,7 @@ sections:
         claim expertise in yet.
 
     design:
-      columns: '1'
-
+      columns: "1"
 
   # ============================================================
   # EDUCATION
@@ -197,8 +190,8 @@ sections:
   - block: markdown
     id: education
     content:
-      title: '🎓 Education'
-      subtitle: ''
+      title: "🎓 Education"
+      subtitle: ""
       text: |
         ## The Chinese University of Hong Kong, Shenzhen
 
@@ -218,9 +211,12 @@ sections:
         mathematics, programming, computer engineering, circuits, and
         robotics-related subjects.
 
-    design:
-      columns: '1'
+        ## Kamnoetvidya Science Academy (KVIS)
 
+        **STEM research-based high school**
+
+    design:
+      columns: "1"
 
   # ============================================================
   # LEADERSHIP & UNIVERSITY INVOLVEMENT
@@ -229,8 +225,8 @@ sections:
   - block: markdown
     id: activities
     content:
-      title: '🌏 Leadership & Campus Involvement'
-      subtitle: 'Contributing beyond the classroom'
+      title: "🌏 Leadership & Campus Involvement"
+      subtitle: "Contributing beyond the classroom"
       text: |
         ### Lead Student Organizer — International Student Activities
 
@@ -266,8 +262,7 @@ sections:
         on official webpages.
 
     design:
-      columns: '1'
-
+      columns: "1"
 
   # ============================================================
   # RESEARCH OPPORTUNITY
@@ -276,7 +271,7 @@ sections:
   - block: cta-card
     id: contact
     content:
-      title: 'Interested in Robotics Research'
+      title: "Interested in Robotics Research"
       text: |
         I'm currently looking for opportunities to gain more hands-on
         experience in robotics research at CUHK-Shenzhen.
@@ -293,6 +288,6 @@ sections:
 
     design:
       card:
-        css_class: ''
-        css_style: ''
+        css_class: ""
+        css_style: ""
 ---
