@@ -1,116 +1,154 @@
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  display: Chompunick Chieng
+  given: Chompunick
+  family: Chieng
+  alternate: AnnAnn
+  pronunciation: ''
+  pronouns: ''
+
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "🤖"
+
+role: Electrical & Computer Engineering Undergraduate
+
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Hi! I'm AnnAnn, a second-year Electrical and Computer Engineering student
+  at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen), in the
+  Computer Engineering stream.
+
+  I'm interested in robotics and computer engineering, especially the
+  intersection of hardware and software. I'm currently strengthening my
+  technical foundation through coursework, programming, projects, and
+  research experience while exploring which area of robotics fits me best.
+
+  I'm particularly interested in gaining more hands-on robotics research
+  experience at CUHK-Shenzhen.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: The Chinese University of Hong Kong, Shenzhen
+    url: https://www.cuhk.edu.cn/
 
 links:
-  - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://github.com/nAnAowob
+    label: GitHub
 
 interests:
-  - Large Language Models
+  - Robotics
+  - Robot Perception
+  - Embedded Robotics
+  - Robot Control and Manipulation
   - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Bio-Inspired Robotics
+  - Hardware-Software Integration
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: B.Eng. Electrical and Computer Engineering
+    institution: The Chinese University of Hong Kong, Shenzhen
+    start: 2025-09-01
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      Computer Engineering stream.
+
+      Selected academic results:
+      - MAT1001 Calculus I — A
+      - CSC1005 — A
+      - CSC1006 — A
+      - ENG1002 — A-
+      - AP Calculus BC — 5/5
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Bio-Inspired Robotics Research Intern
+    org: VISTEC Robotics Lab
+    start: 2025-06-01
+    end: 2025-07-31
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+      Completed a two-month research internship in a bio-inspired robotics
+      laboratory, gaining hands-on exposure to a mayfly-inspired robotics
+      project.
+
+      The experience introduced me to bio-inspired robotic mechanisms,
+      engineering experimentation, research workflows, technical
+      documentation, and research reporting.
+
+      This was my first significant exposure to a robotics research
+      environment and motivated me to continue exploring robotics research.
+
     button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      text: View Mayfly Project
+      url: /projects/mayfly-inspired-robotics/
+      icon: hero/arrow-top-right-on-square
+
+  - role: Lead Student Organizer — International Student Activities
+    org: CUHK-Shenzhen
+    start: 2026-08-01
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Take a leading role among student organizers in planning and
+      coordinating activities for international students under the guidance
+      of university staff.
+
+      Responsibilities include developing activity concepts, planning event
+      structures and schedules, coordinating with other student organizers,
+      preparing materials, communicating plans with supervising staff, and
+      supporting event execution.
+
+  - role: Diligentia Student Coach
+    org: Diligentia College, CUHK-Shenzhen
+    start: 2026-08-01
+    summary: |
+      Support freshmen during their transition to university life by
+      answering questions, sharing student-life experience, and helping them
+      adapt to the university and campus environment.
+
+  - role: Student Outreach and Campus Tour Volunteer
+    org: CUHK-Shenzhen
+    summary: |
+      Introduce prospective international students and families to
+      CUHK-Shenzhen by sharing first-hand perspectives on academics,
+      scholarships, campus life, and the international student experience.
+
+      I have also participated in university outreach with CASC
+      (Chinese Abroad Study Center Co., Ltd.), including hosting a campus
+      visit and appearing in a video introducing CUHK-Shenzhen from a
+      student's perspective.
 
 skills:
-  - name: Technical Skills
+  - name: Programming
     items:
+      - label: C++
+        level: 3
+      - label: C
+        level: 3
       - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
+        level: 3
+      - label: Git & GitHub
+        level: 3
+
+  - name: Engineering
     items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
+      - label: Circuit Design
+        level: 2
+      - label: Computer Engineering
+        level: 2
+      - label: Digital Systems
+        level: 2
+      - label: Hardware-Software Integration
+        level: 2
 
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
-
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - name: Currently Exploring
+    items:
+      - label: ROS2
+        level: 1
+      - label: OpenCV
+        level: 1
+      - label: Robot Perception
+        level: 1
+      - label: SLAM
+        level: 1
+      - label: Robot Control
+        level: 1
+      - label: Embedded Systems
+        level: 1
