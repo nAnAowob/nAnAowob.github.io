@@ -1,0 +1,43 @@
+{{ if .IsHome }}
+<style>
+  /* Give the homepage room on desktop without changing article reading widths. */
+  @media (min-width: 1024px) {
+    .hbb-section {
+      --home-content-width: 92%;
+    }
+
+    #section-resume-biography-3 .resume-biography > .max-w-7xl,
+    .hbb-section > .max-w-prose,
+    #projects .container {
+      width: var(--home-content-width);
+      max-width: none;
+      margin-inline: auto;
+    }
+
+    #section-resume-biography-3 .prose {
+      max-width: 85ch;
+    }
+
+    /* A heading column spreads sections across the screen while keeping
+       paragraphs comfortable to read. Mobile retains the theme's stacking. */
+    :is(#research, #research-experience, #learning, #education, #activities)
+      > .max-w-prose {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+      align-items: start;
+      gap: clamp(2rem, 5vw, 6rem);
+    }
+
+    :is(#research, #research-experience, #learning, #education, #activities)
+      > .max-w-prose > .prose {
+      width: 100%;
+      max-width: 85ch;
+      min-width: 0;
+    }
+
+    #skills > .grid {
+      gap: 3rem;
+    }
+  }
+</style>
+{{ end }}

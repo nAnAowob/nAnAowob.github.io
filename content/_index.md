@@ -1,5 +1,5 @@
 ---
-title: ''
+title: 'Chompunick CHIENG'
 summary: 'Personal academic portfolio of Chompunick "AnnAnn" Chieng, an Electrical and Computer Engineering undergraduate at CUHK-Shenzhen exploring robotics, embedded systems, hardware, and software.'
 date: 2026-09-12
 type: landing

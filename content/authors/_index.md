@@ -5,7 +5,7 @@ first_name: Chompunick
 last_name: Chieng
 
 status:
-  icon: 🤖
+  icon: 🍊
 
 role: Electrical & Computer Engineering Undergraduate
 
@@ -54,7 +54,7 @@ social:
     link: https://github.com/nAnAowob
 ---
 
-Hi! I'm AnnAnn 👋
+Hi! I'm AnnAnn
 
 I'm a second-year Electrical and Computer Engineering student at
 CUHK-Shenzhen in the Computer Engineering stream.
