@@ -1,33 +1,35 @@
 ---
 title: 'Experience'
-date: 2023-10-24
+date: 2026-09-12
 type: landing
 
 design:
   spacing: '5rem'
 
-# Note: `username` refers to the user's folder name in `content/authors/`
-
-# Page sections
 sections:
+
+  - block: markdown
+    content:
+      title: Experience
+      subtitle: Research, leadership, and academic development
+      text: |
+        My experiences so far reflect my exploration of robotics,
+        engineering, research, and university involvement.
+
+    design:
+      columns: '1'
+
   - block: resume-experience
     content:
       username: me
+      text: ''
+
     design:
-      # Hugo date format
       date_format: 'January 2006'
-      # Education or Experience section first?
       is_education_first: false
+
   - block: resume-skills
     content:
-      title: Skills & Hobbies
-      username: me
-  - block: resume-awards
-    content:
-      title: Awards
-      username: me
-  - block: resume-languages
-    content:
-      title: Languages
+      title: Technical Skills
       username: me
 ---
